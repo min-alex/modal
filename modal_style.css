@@ -1,0 +1,51 @@
+#mymodal {
+	position: absolute;
+	display: none;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	height: 200px;
+	width: 400px;
+	z-index: 1;
+	border-width: 1px;
+	border-style: solid;
+}
+
+.open {
+	display: block;
+}
+
+#content {
+	position: absolute;
+	display: block;
+}
+
+#btn1 {
+	position: absolute;
+	display: block;
+	top: 700px;
+	color: blue;
+	font-color: white;
+}
+
+#close {
+	position: absolute;
+	top: 0px;
+	left: 385px;
+	text-align: right;
+}
+
+#close:hover {
+	cursor: pointer;
+}
+
+#text {
+	position: absolute;
+	top: 0px;
+	left: 5px;
+	width: 100px;
+	border-width: 1px;
+	border-style: solid;
+}
