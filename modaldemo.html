@@ -4,17 +4,22 @@
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="reset.css">
 	<link rel="stylesheet" type="text/css" href="modal_style.css">
+	<link href='https://fonts.googleapis.com/css?family=Londrina+Solid' rel='stylesheet' type='text/css'>
 	<title>Modal Demo</title>
 </head>
 
 <body>
+	<h1 id="h1main">CLICK THE BUTTON TO OPEN THE MODAL</h1>
+
 	<div id="mymodal" role="dialog">
+		<h1 id="mhead">Modal Header</h1>
+		<p id="close">x</p>
+
 		<div id="content">
-			<p id="close">x</p>
-			<p id="text">Modal Text</p>
-			
+			Hey this is a little modal I made. You can either click the "x" or outside the modal to close it.
 		</div>
 	</div>
+	
 	<button id="btn1">Open Modal</button>
 	<script type="text/javascript" src="modalscript.js"></script>
 	

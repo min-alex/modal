@@ -1,3 +1,8 @@
+body {
+	background-color: gray;
+	font-family: "Londrina Solid", sans-serif;
+}
+
 #mymodal {
 	position: absolute;
 	display: none;
@@ -9,32 +14,50 @@
 	height: 200px;
 	width: 400px;
 	z-index: 1;
-	border-width: 1px;
-	border-style: solid;
+	background-color: white;
+}
+
+#h1main {
+	position: absolute;
+	top: 80px;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: 0 auto;
+	height: 38px;
+	width: 500px;
+	text-align: center;
+	color: white;
 }
 
 .open {
 	display: block;
 }
 
-#content {
-	position: absolute;
-	display: block;
-}
-
 #btn1 {
 	position: absolute;
 	display: block;
-	top: 700px;
-	color: blue;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	height: 30px;
+	width: 80px;
+	font-family: "Londrina Solid", sans-serif;
+	font-size: 15px;
 	font-color: white;
+	color: blue;
 }
 
 #close {
 	position: absolute;
 	top: 0px;
 	left: 385px;
+	margin: 0;
+	font-family: "Londrina Solid", sans-serif;
 	text-align: right;
+	color: white;
 }
 
 #close:hover {
@@ -48,4 +71,13 @@
 	width: 100px;
 	border-width: 1px;
 	border-style: solid;
+}
+
+#mhead {
+	position: relative;
+	top: 0;
+	margin: 0;
+	color: white;
+	background-color: green;
+	text-align: center;
 }
