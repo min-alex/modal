@@ -20,3 +20,9 @@ closer.onmouseover = function(event) {
 closer.onclick = function(event) {
 	modal.setAttribute("style", "display:none")
 }
+
+document.onkeydown = function(event) {
+	if (event.keyCode == 27) {
+		modal.setAttribute("style", "display:none")
+	}
+}
